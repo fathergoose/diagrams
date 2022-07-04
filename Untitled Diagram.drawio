@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T10:29:11.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FiQPztfSsWayOfV7Bk7m" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T10:37:25.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_BSJ3PsEKlMVS4TdEenj" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="706" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="A user is logged in and directed to the Cases Page" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry y="20" relative="1" as="geometry">
@@ -21,10 +21,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="User is a caseworker?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+          <mxGeometry x="170" y="220" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="- Render checked &quot;My Cases&quot; in the Cases (scope) filter and hide organization and caseworker filters&lt;br&gt;- SELECT&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="125" width="240" height="170" as="geometry" />
+          <mxGeometry x="320" y="175" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
@@ -40,8 +40,8 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="User is a supervisor" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="398" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="- Select &quot;My Team&quot; in the UI&lt;br&gt;Look up the supervisor&#39;s subordinates using accounts_profile.manager_id&lt;br&gt;- SELECT cases WHERE account_profile.id IN subordinates list" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="388" width="240" height="100" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="- Select &quot;My Team&quot; in the UI&lt;br&gt;Look up the supervisor&#39;s subordinates using accounts_profile.manager_id&lt;br&gt;- Had to write custom queries so the total record count aligns with the sql query." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="388" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="FOxtJBTWj02cg9n3NPKO-1" value="User is a specialist / admin?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="538" width="100" height="80" as="geometry" />
@@ -52,8 +52,8 @@
             <mxPoint x="270" y="578" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FOxtJBTWj02cg9n3NPKO-3" value="- Render checked &quot;All Cases&quot; field.&amp;nbsp;&lt;br&gt;- Display all org filter entries&lt;br&gt;- Call API using get by group" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="558" width="240" height="40" as="geometry" />
+        <mxCell id="FOxtJBTWj02cg9n3NPKO-3" value="- Render checked &quot;All Cases&quot; field.&amp;nbsp;&lt;br&gt;- Display all org filter entries&lt;br&gt;- Call API using get by group&lt;br&gt;- SELECT cases WHERE groups" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="513" width="280" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
